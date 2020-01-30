@@ -1,0 +1,166 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+body {
+	font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+
+}
+
+.login-page-wrap{
+	background-color:#e7ebf0;
+	width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.wapka{
+	height: 226px;
+	background-color:#497495;
+}
+
+.center-login{
+
+	margin: -131px auto 90px;
+    max-width: 404px;
+    height:50vh;
+    background-color: #FFFFFF;
+    /*border-radius: 3px;*/
+
+}
+
+.login-head-wrap{
+	height:75px;
+	background-color:#497495; 
+	color:#FFFFFF;
+}
+
+.next-right{
+	font-weight: 700;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+.next-right-next{
+	    font-size: 13px;
+    line-height: 20px;
+    padding: 27px 15px 28px;
+    display: inline-block;
+    color: #fff;
+}
+
+.login-head-logo-link{
+	display: inline-block;
+    line-height: 30px;
+    padding: 23px 15px 22px;
+}
+
+
+.icon-tg-logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+    background-image: url(https://web.telegram.org/img/icons/General.png);
+    background-repeat: no-repeat;
+    background-position: -5px -10px;
+}
+
+.icon-tg-title {
+    width: 62px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(https://web.telegram.org/img/Telegram.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin-top: 1px;
+}
+
+.login-form-wrap {
+	background: #FFF;
+	border-radius:2px;
+	padding: 44px 65px;
+	   border: 0;
+    margin: 0;
+    max-width: none;
+	
+	/*height: 330.33px;*/
+}
+
+form{
+	display:block;
+	margin-top:0em;
+	
+}
+
+.login-form-head {
+    color: #222;
+    margin: 0 0 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+select{
+	border-radius: 4px;
+	width:100%;
+}
+
+input{
+	border-radius: 4px;
+    border: 0;
+}
+
+.inputs{
+
+}
+
+.code-inputs{
+	float: left;
+    width: 50px;
+    margin-right: 25px;
+
+}
+
+.input1{
+	color: #000;
+    background: #fff;
+    display: inline-block;
+ /*   border: 0;*/
+    outline: 0;
+    font-size: 13px;
+    padding: 3px 0;
+    margin: 3px 0 0;
+    width: 100%;
+    resize: none;
+    box-shadow: none;
+}
+
+.number-inputs{
+	height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0;
+    margin: 0 0 22px;
+}
+
+.input2{
+	color: #000;
+    background: #fff;
+    display: inline-block;
+/*    border: 0;*/
+    outline: 0;
+    font-size: 13px;
+    padding: 3px 0;
+    margin: 3px 0 0;
+    width: 100%;
+    resize: none;
+ 	
+    box-shadow: none;
+}

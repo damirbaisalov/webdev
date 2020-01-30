@@ -1,0 +1,145 @@
+.main-section{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(250, 250, 250);
+   height: 100vh;    
+   padding-top: 40px;
+}
+
+.icon-img{
+    height: 600px;
+    width: 380px;
+    padding-right: 30px;
+    padding-top: 97px;
+}
+
+.icon-inst{
+    height: 55px;
+    width: 150px;
+}
+.btn{
+    color: white;
+    border: 1px solid rgb(79, 151, 233);
+    border-radius: 3px;
+    background-color: rgb(79, 151, 233);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn1{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.btn2{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.r-top-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+
+.icn{
+    height: 45px;
+    width: 150px;
+}
+.appflex{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+
+.appref{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.l-email, .l-name, .l-log, .l-psw{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 4px;
+    padding-right: 100px;
+
+    border: 1px solid rgb(223, 223, 223);
+
+}
+
+*{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.toptext, .l-email, .l-name, .l-log, .l-psw, .bottext{
+    color: rgb(153, 153, 153);
+}
+
+.toptext{
+    font-size: 18px;
+}
+.toptext, .appa{
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+}
+
+.accfl{
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.toptext{
+    margin-bottom: 27px;
+}
+
+.fbrand{
+    background-color: white;
+    color:rgb(79, 151, 233);
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.l-email, .l-name, .l-log, .l-psw{
+
+}
+
+.ili{
+    color: rgb(153, 153, 153);
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-bottom: 20px;
+}
+
+.l-psw{
+    margin-bottom: 25px;
+}
+
+.appflex{
+    margin-bottom: 25px;
+}

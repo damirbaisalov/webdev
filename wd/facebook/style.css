@@ -1,0 +1,194 @@
+*{
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+font-family: Helvetica, Arial, sans-serif;
+}
+.fb-top{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(67, 93, 149);
+    height: 11vh;
+    color: white;
+    padding-top: 1vh;
+}
+
+.r-top{
+    display: flex;
+    font-size:13px;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.psw-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-logo{
+    padding-top: 3vh;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.l-name, .l-psw{
+padding-top: 4px;
+padding-bottom: 4px;
+margin-right: 20px;
+}
+
+.name-box{
+margin-right: 20px;
+}
+.l-name{
+    margin-right: 100px;
+}
+.l-psw{
+     padding-left: 15px;
+     padding-right: 15px;
+}
+
+.button .btn-logs{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(46, 73, 121);
+    border-radius: 2px;
+    background-color: rgb(72, 104, 173);
+    padding: 2px;
+}
+
+.fpsw .btn{
+    color: rgb(160, 180, 213);
+    text-decoration: none;
+    
+}
+
+.fpsw{
+    margin-top: 4px;
+}
+.r-top .button{
+    margin-top: 33px;
+}
+
+.img-map{
+    height: 200px;
+    width: 470px;
+}
+
+.main-center{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(255, 255, 255); /* Для старых браузров */
+    background: linear-gradient(to top, rgb(239, 240, 246), rgb(218, 221, 234));
+    height: 100vh;
+}
+
+.left-box{
+    margin-top: 44px;
+}
+
+.right-box{
+    margin-top: 34px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    display: flex;
+}
+
+.sex{
+display: flex;
+}
+
+input::-webkit-input-placeholder { 
+    color: rgb(153, 153, 153); 
+}
+
+.name, .surname, .email, .psw{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    border: 1px solid rgb(191, 199, 215);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.reg-text{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.reg-ezy{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.que{
+    border: 1px solid  rgb(97, 103, 111);
+    border-radius: 100%;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    background-color: rgb(97, 103, 111);
+    color: white;
+}
+
+.datetext{
+    color: rgb(145, 148, 155);
+}
+
+.rad1, .rad2, .rad3{
+    margin-right: 10px;
+}
+
+
+
+.date-box{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sex-box{
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.bot-text1{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    color: rgb(119, 119, 119);
+}
+
+.button .btn-regs{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid rgb(72, 108, 46);
+    border-radius: 2px;
+    background-color: rgb(109, 152, 85);
+    margin-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+.bot-text2{
+    padding-top: 30px;
+}
