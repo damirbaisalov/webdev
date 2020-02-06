@@ -24,7 +24,7 @@ body {
 
 .center-login{
 
-	margin: -131px auto 90px;
+	margin: -131px auto; 
     max-width: 404px;
     height:50vh;
     background-color: #FFFFFF;
@@ -106,11 +106,13 @@ form{
     margin: 0 0 20px;
     font-size: 15px;
     font-weight: 700;
+
 }
 
 select{
 	border-radius: 4px;
 	width:100%;
+    border:0;
 }
 
 input{
@@ -145,9 +147,10 @@ input{
 
 .number-inputs{
 	height: 50px;
-    border-bottom: 1px solid #e6e6e6;
-    padding: 0;
-    margin: 0 0 22px;
+    /*border-bottom: 1px solid #e6e6e6;*/
+   /* padding: 0;
+    margin: 0 0 22px;*/
+   margin-left:90px;
 }
 
 .input2{
@@ -161,6 +164,17 @@ input{
     margin: 3px 0 0;
     width: 100%;
     resize: none;
- 	
     box-shadow: none;
+}
+
+.footer{
+    padding-top:30px;
+    text-align:center;
+    color:#778899;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #778899;
 }
