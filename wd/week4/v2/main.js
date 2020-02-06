@@ -14,7 +14,7 @@ if(input.value!=''){
     list.appendChild(el);
     input.value='';
     
-    
+    //creating element checkbox
     var checkbox = document.createElement("input");
     checkbox.type='checkbox';
     checkbox.style.float='left';
@@ -29,11 +29,11 @@ if(input.value!=''){
             }
     }
    
- 
+    //adding checkbox to 'el' - item
     el.appendChild(checkbox);
 
   var span = document.createElement("SPAN");
- // var txt = document.createTextNode("\u00D7");
+ // var txt = document.createTextNode("\u00D7"); -- alternative to logo 'trash' 
 
  var img = document.createElement("IMG");
  img.src = "trash2.png"; 

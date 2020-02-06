@@ -2,7 +2,7 @@ body{
     margin: 0px;
     
 }
-header{
+nav{
     height: 5%;
     background-color: #222222;
     color:grey;
@@ -41,6 +41,9 @@ li {
 }
 ul li.checked {
     text-decoration: line-through;
+  }
+  .nothing{
+      text-decoration: none;
   }
  
   .close {
