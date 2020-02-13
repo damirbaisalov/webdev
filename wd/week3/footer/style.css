@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Museo Sans Cyrillic",-apple-system,BlinkMacSystemFont,Roboto,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.35;
+    color: #141414;
+    text-align: left;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    padding:80px 0 75px 0;
+}
+
+.logos-top-bottom{
+    display: block;
+}
+
+.left-logo{
+    width:200px;
+    height:57px;
+    position: relative;
+    color:SlateGrey;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+    margin-left: 30px;
+
+}
+
+.icons{
+    display: block;
+    position: relative;
+    /* margin: 10px 0 0 0;
+    padding: 0 0 19px 0; */
+    margin-left: 30px;
+    padding-top: 40px;
+   
+}
+
+.footer-content-logo{
+    align-self:center;
+    width: 200px;
+    height: 57px;
+    background-image: url(/assets/ff/blocks/__ff/_cross/footer/skyeng.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.link-icon{
+    margin-left: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+.right-side{
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+.first-right-block{
+    display: block;
+}
+
+.first-right-row{
+    margin-top:14px;
+    padding-bottom:7px;
+    padding-left:28px;
+    opacity: 0.3;
+    font-weight: 550;
+}
+
+.first-right-content{
+    padding-left: 28px;
+    padding-top: 9px;
+}
+
+.first-right-content-row-p{
+    padding-top:3px;
+    padding-bottom: 10px;
+    
+}
+
+.first-right-content-row-a{
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #393f47;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    margin-left:30px;
+    margin-top: 31px;
+    padding-bottom: 13px;
+}
