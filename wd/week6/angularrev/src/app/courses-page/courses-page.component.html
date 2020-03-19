@@ -1,0 +1,11 @@
+<div *ngIf = "pageCourses">
+  <p>Title: {{pageCourses.title}}</p>
+  <img src="{{pageCourses.image}}">
+  <p>Description: {{pageCourses.description}}</p>
+  <p *ngIf = "pageCourses.teachers">
+    <p *ngFor="let teacher of pageCourses.teachers">
+      <a *ngIf = "teacher != 'Shaikh'" href="skype:shaihislam01?chat">{{teacher}}</a>
+      <a *ngIf = "teacher == 'Shaikh'" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">{{teacher}}</a>
+
+</p>
+</div>

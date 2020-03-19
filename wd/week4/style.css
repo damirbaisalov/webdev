@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	min-height: 300px;
+  background-color: #dfeff5;
+}
+
+ul {
+  width: 80%;
+	margin-left: 10%;
+  margin-top: 0%;
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+	cursor: pointer;
+	position: relative;
+	padding:12px 8px 12px 40px;
+	background-color:#eee;
+	font-size: 18px;
+	transition: 0.2s;
+  margin-left: 20px;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #a9b6ba;
+  color: white;
+}
+
+ul li.done {
+  background: #abffc5;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+
+
+ul li.done::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+#head{
+	background-color: #abc7d1;
+	text-align: center;
+	padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#input{
+	width: 80%;
+	height: 30px;
+  padding-left: 20px;
+}
+
+
+.addBtn{
+	height: 40px;
+	width: 10%;
+	border: 0;
+  cursor: pointer;
+}
+
+.addBtn:hover{
+  background-color: #a9b6ba;
+}
+
+.links{
+  text-align: center;
+}
+
+.links a{
+  color:blue;
+  margin-left: 10px;
+  text-decoration: none;
+}

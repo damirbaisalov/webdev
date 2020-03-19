@@ -1,0 +1,4 @@
+<div *ngFor="let produc of categories.products"> 
+    <a routerLink= '{{produc.id}}' >{{produc.name}}</a>
+</div>
+<a (click)="getBack()">Back</a> 
