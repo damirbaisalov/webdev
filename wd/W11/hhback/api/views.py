@@ -10,7 +10,6 @@ def company_list(request):
     new_companies_json = [c.to_json() for c in companies]
     return JsonResponse(new_companies_json, safe=False)
 
-
 #COMPANY BY ID
 def company_id(request, new_id):
     try:
@@ -42,11 +41,9 @@ def vacancy_id(request, pk):
     except Vacancy.DoesNotExist as e:
         return JsonResponse({'error': str(e)})
 
+#TOP TEN VACANCIES
 def vacancy_top_ten(request):
     vacancies = Vacancy.objects.all()
-    # json_vacancies = [j_v.to_json() for j_v in Vacancy if j_v]
-    # json_vacancies = [j_v.to_json() for j_v in Vacancy]
-
     json_vacancies = []
     tempSalary=-1000
     tempCounter=0
