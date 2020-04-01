@@ -58,3 +58,9 @@ def vacancy_top_ten(request):
     json_vacancies.sort(key=lambda topVacancy: topVacancy["salary"],reverse=True)
 
     return JsonResponse(json_vacancies, safe=False)
+
+#TOP 10 VACANCIES THROUGH THE SQLITE COMMAND DJANGO
+def vacancy_top(request):
+    vacancies = Vacancy.objects.filter().order_by('-salary')[0:10]
+    json_vacancies = [j_v.to_json() for j_v in vacancies]
+    return JsonResponse(json_vacancies, safe=False)
